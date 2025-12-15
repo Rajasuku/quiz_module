@@ -1,0 +1,69 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which type of machine learning uses labeled data?",
+      "options": ["Unsupervised Learning", "Reinforcement Learning", "Supervised Learning", "Clustering"],
+      "answer": "Supervised Learning"
+    },
+    {
+      "id": 2,
+      "question": "Which algorithm is used for classification?",
+      "options": ["Linear Regression", "K-Means", "Logistic Regression", "PCA"],
+      "answer": "Logistic Regression"
+    },
+    {
+      "id": 3,
+      "question": "K-Means belongs to which category?",
+      "options": ["Supervised", "Unsupervised", "Reinforcement", "Deep Learning"],
+      "answer": "Unsupervised"
+    },
+    {
+      "id": 4,
+      "question": "Which algorithm uses Bayes theorem?",
+      "options": ["SVM", "KNN", "Naive Bayes", "Decision Tree"],
+      "answer": "Naive Bayes"
+    },
+    {
+      "id": 5,
+      "question": "Which algorithm maximizes margin?",
+      "options": ["Logistic Regression", "SVM", "KNN", "Random Forest"],
+      "answer": "SVM"
+    },
+    {
+      "id": 6,
+      "question": "Which algorithm is sensitive to outliers?",
+      "options": ["K-Means", "Random Forest", "Naive Bayes", "Decision Tree"],
+      "answer": "K-Means"
+    },
+    {
+      "id": 7,
+      "question": "Which is an ensemble algorithm?",
+      "options": ["Decision Tree", "Random Forest", "KNN", "SVM"],
+      "answer": "Random Forest"
+    },
+    {
+      "id": 8,
+      "question": "PCA is used for?",
+      "options": ["Classification", "Regression", "Dimensionality Reduction", "Clustering"],
+      "answer": "Dimensionality Reduction"
+    },
+    {
+      "id": 9,
+      "question": "Overfitting means?",
+      "options": [
+        "Good training, poor testing",
+        "Poor training, poor testing",
+        "Good testing, poor training",
+        "Balanced model"
+      ],
+      "answer": "Good training, poor testing"
+    },
+    {
+      "id": 10,
+      "question": "Which learning uses rewards?",
+      "options": ["Supervised", "Unsupervised", "Reinforcement", "Semi-supervised"],
+      "answer": "Reinforcement"
+    }
+  ]
+}
