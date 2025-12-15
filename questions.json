@@ -2,68 +2,123 @@
   "questions": [
     {
       "id": 1,
-      "question": "Which type of machine learning uses labeled data?",
-      "options": ["Unsupervised Learning", "Reinforcement Learning", "Supervised Learning", "Clustering"],
-      "answer": "Supervised Learning"
+      "difficulty": "Medium",
+      "question": "Which assumption is made by the Naive Bayes classifier?",
+      "options": [
+        "Features are linearly separable",
+        "Features are independent given the class",
+        "Classes have equal prior probability",
+        "Data follows uniform distribution"
+      ],
+      "answer": "Features are independent given the class"
     },
     {
       "id": 2,
-      "question": "Which algorithm is used for classification?",
-      "options": ["Linear Regression", "K-Means", "Logistic Regression", "PCA"],
-      "answer": "Logistic Regression"
+      "difficulty": "Medium",
+      "question": "In KNN, increasing the value of K generally results in:",
+      "options": [
+        "Higher variance and lower bias",
+        "Lower variance and higher bias",
+        "Higher variance and higher bias",
+        "Lower variance and lower bias"
+      ],
+      "answer": "Lower variance and higher bias"
     },
     {
       "id": 3,
-      "question": "K-Means belongs to which category?",
-      "options": ["Supervised", "Unsupervised", "Reinforcement", "Deep Learning"],
-      "answer": "Unsupervised"
+      "difficulty": "Hard",
+      "question": "Which kernel trick allows SVM to handle non-linearly separable data?",
+      "options": [
+        "Gradient Descent",
+        "Lagrange Optimization",
+        "Feature Space Transformation",
+        "Cost Function Regularization"
+      ],
+      "answer": "Feature Space Transformation"
     },
     {
       "id": 4,
-      "question": "Which algorithm uses Bayes theorem?",
-      "options": ["SVM", "KNN", "Naive Bayes", "Decision Tree"],
-      "answer": "Naive Bayes"
+      "difficulty": "Medium",
+      "question": "Which metric is best suited for evaluating an imbalanced classification problem?",
+      "options": [
+        "Accuracy",
+        "Mean Squared Error",
+        "F1-Score",
+        "R-squared"
+      ],
+      "answer": "F1-Score"
     },
     {
       "id": 5,
-      "question": "Which algorithm maximizes margin?",
-      "options": ["Logistic Regression", "SVM", "KNN", "Random Forest"],
-      "answer": "SVM"
+      "difficulty": "Hard",
+      "question": "Which regularization technique adds the absolute value of coefficients to the loss function?",
+      "options": [
+        "Ridge Regression",
+        "Lasso Regression",
+        "Elastic Net",
+        "Polynomial Regression"
+      ],
+      "answer": "Lasso Regression"
     },
     {
       "id": 6,
-      "question": "Which algorithm is sensitive to outliers?",
-      "options": ["K-Means", "Random Forest", "Naive Bayes", "Decision Tree"],
-      "answer": "K-Means"
+      "difficulty": "Medium",
+      "question": "Random Forest reduces overfitting mainly by:",
+      "options": [
+        "Using deeper trees",
+        "Averaging multiple decision trees",
+        "Reducing feature size",
+        "Using gradient descent"
+      ],
+      "answer": "Averaging multiple decision trees"
     },
     {
       "id": 7,
-      "question": "Which is an ensemble algorithm?",
-      "options": ["Decision Tree", "Random Forest", "KNN", "SVM"],
-      "answer": "Random Forest"
+      "difficulty": "Hard",
+      "question": "In PCA, the principal components are chosen such that they:",
+      "options": [
+        "Maximize the mean of data",
+        "Minimize classification error",
+        "Maximize variance",
+        "Minimize covariance"
+      ],
+      "answer": "Maximize variance"
     },
     {
       "id": 8,
-      "question": "PCA is used for?",
-      "options": ["Classification", "Regression", "Dimensionality Reduction", "Clustering"],
-      "answer": "Dimensionality Reduction"
+      "difficulty": "Medium",
+      "question": "Which stopping criterion is commonly used in Decision Trees?",
+      "options": [
+        "Learning rate becomes zero",
+        "Maximum tree depth is reached",
+        "All features are used",
+        "Distance metric converges"
+      ],
+      "answer": "Maximum tree depth is reached"
     },
     {
       "id": 9,
-      "question": "Overfitting means?",
+      "difficulty": "Hard",
+      "question": "Which concept explains why deep neural networks perform better with large datasets?",
       "options": [
-        "Good training, poor testing",
-        "Poor training, poor testing",
-        "Good testing, poor training",
-        "Balanced model"
+        "Bias-Variance Tradeoff",
+        "Curse of Dimensionality",
+        "Universal Approximation Theorem",
+        "No Free Lunch Theorem"
       ],
-      "answer": "Good training, poor testing"
+      "answer": "Universal Approximation Theorem"
     },
     {
       "id": 10,
-      "question": "Which learning uses rewards?",
-      "options": ["Supervised", "Unsupervised", "Reinforcement", "Semi-supervised"],
-      "answer": "Reinforcement"
+      "difficulty": "Medium",
+      "question": "Which technique is commonly used to handle missing values in datasets?",
+      "options": [
+        "Feature scaling",
+        "Data augmentation",
+        "Imputation",
+        "Dimensionality reduction"
+      ],
+      "answer": "Imputation"
     }
   ]
 }
